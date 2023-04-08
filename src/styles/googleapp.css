@@ -1,0 +1,141 @@
+
+#link{
+text-decoration: none;
+color:#8d8c8c;
+}
+
+#link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#button{
+  background-color:#8d8c8c34;
+  color: #3c4043;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+}
+
+#button:hover{
+cursor: pointer;   
+box-shadow: 0 1px 1px rgba(0,0,0,.1);
+background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
+}
+
+.search-section{
+  margin: 20px;
+  padding: 20px;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.search-field {
+  flex-grow: 1;
+}
+.search-keyword {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 8px 10px;
+  width: 684px;
+}
+.input-container:hover{
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+
+}
+.search-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 26px;
+  margin-right: 16px;
+}
+
+.search-icon {
+  height: 16px;
+
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.mic-icon,
+.camera-icon {
+  height: 16px;
+  margin-left: 10px;
+}
+
+
+#search-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  gap: 13px;
+}
+
+.link{
+  color: #4d5156;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 26px; 
+}
+.link span{
+cursor: pointer;
+color:#1a0dab;
+padding: 0 3px;
+}
+
+.link span:hover{
+  text-decoration: underline;
+
+}
+
+
+
+.bottom-left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bottom-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.bottom-left .menu-item {
+  display: inline-block;
+}
+
+#location{
+  padding: 10px 20px;
+  border-bottom: 2px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+}
+.footer{
+  height: 25vh;
+  background-color: #e7e6e6;
+  margin-top: 60px;
+  padding-top: 20px;
+}
